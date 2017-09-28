@@ -1,0 +1,76 @@
+
+/* Header */
+header {
+    background: #333;
+    padding: 0;
+    z-index: 999;
+    border-radius: 0;
+    border: none;
+    margin: auto;
+	position: relative;
+	height: 50px;
+	line-height: 50px;
+}
+	header .logo-box {
+		float: left;
+		max-width: 170px;
+		height: 100%;
+		color: #aeaeae;
+	}
+		header .logo-name {
+			font-family: Tahoma;
+			font-size: 1.6em;
+			line-height: 50px;
+			padding: 0 15px;
+			vertical-align: middle;
+			text-align: left;			
+		}
+	header .top-menu {
+		float: right;
+		height: 100%;
+		color: #aeaeae;
+	}
+		header .top-menu {
+			display: block;
+		}
+		header .top-menu ul li {
+			padding: 0 5px;
+			display: inline-block;
+			font-size: 1.2em;
+		}
+
+		/* User info */
+		header .top-menu .user-info img {
+			max-height: 30px;
+			max-width: 30px;
+		}
+		header .top-menu .user-info .user-dropdown-menu {
+			top: 47px !important;
+			padding: 5px;
+			border-top-left-radius: inherit;
+			border-top-right-radius: inherit;
+		}
+			header .top-menu .user-info .user-dropdown-menu * {
+				line-height: 0;
+				height: 30px;
+				margin: inherit;
+				cursor: pointer;
+			}
+			header .top-menu .user-info .user-dropdown-menu .dropdown-item:not(:last-child) {
+				margin-bottom: 10px;
+			}
+			header .top-menu .user-info .user-dropdown-menu hr {
+				margin-bottom: 10px;
+				height: inherit;
+			}
+
+/* Nav */
+nav {
+
+}
+
+/* Main */
+main {
+
+}
+/* endregion */
