@@ -73,7 +73,22 @@ nav {
 	padding: 11px 20px 11px 25px;
 	background: #fff;
 	border-bottom: 1px solid #e2e2e2;
+	font-weight: bold;
 }
+	nav li {		
+		display: inline;
+		margin-right: 30px;
+	}
+		nav li a {
+			font-weight: bold;
+			position: relative;
+		}
+		nav li a::after {
+			content: '/';
+			font-weight: normal;
+			position: absolute;
+			right: -20px;
+		}
 
 /* Main */
 main {
