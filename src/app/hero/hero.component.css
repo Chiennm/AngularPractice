@@ -1,0 +1,24 @@
+.selected {
+	background-color: #CFD8DC !important;
+	color: white;
+}
+
+ul.heroes li {
+	padding: 10px;
+	line-height: 100%;
+	background-color: #ededed;
+	border-radius: 3px;
+	margin: 5px 0;
+	cursor: pointer;
+	font-weight: 500;
+}
+	ul.heroes li:hover {
+		background-color: #f5f5f5;
+	}
+	ul.heroes li.selected {
+		background-color: #ccc;
+	}
+	ul.heroes li .badge {
+		padding: 5px;
+		margin-right: 10px;
+	}

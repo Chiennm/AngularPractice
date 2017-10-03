@@ -70,10 +70,11 @@ header {
 
 /* Nav */
 nav {
-	padding: 11px 20px 11px 25px;
+	padding: 11px 15px;
 	background: #fff;
 	border-bottom: 1px solid #e2e2e2;
 	font-weight: bold;
+	color: #666;
 }
 	nav li {		
 		display: inline;
@@ -88,12 +89,16 @@ nav {
 			font-weight: normal;
 			position: absolute;
 			right: -20px;
+			top: -2px;
 		}
 
 /* Main */
 main {
 
 }
+	main article {
+		margin: 20px 0;
+	}
 
 /* Footer */
 footer {
@@ -107,6 +112,7 @@ footer {
 		font-size: 1.2em;
 		font-weight: 400;
 		letter-spacing: normal;
+		margin-bottom: 0;
 	}
 
 /* endregion */
